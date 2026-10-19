@@ -1,16 +1,62 @@
-# React + Vite
+# 🥗 NutriGuide – Diet Recommendation Rule System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
+NutriGuide is a rule-based expert system that recommends meals based on users' dietary preferences. It provides a simple and user-friendly interface to explore suitable meal options.
 
-Currently, two official plugins are available:
+## Features
+- Vegetarian meal recommendations
+- Non-Vegetarian meal recommendations
+- Vegan meal recommendations
+- Meal cards with food images
+- Weekly meal suggestions
+- User-friendly interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
 
-## React Compiler
+## How It Works
+1. The user selects a dietary preference.
+2. The system matches the selection with predefined rules.
+3. Suitable meal recommendations are displayed.
+4. Users can explore the available meal options.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+Install Node.js and npm.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VarshitaAkula-01/Diet-Recommendation-Rule-System.git
+   ```
+2. Navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Project Structure
+- `public/` – Public assets and images
+- `src/` – React components, styles, and diet rules
+- `package.json` – Project dependencies and scripts
+
+## Future Enhancements
+- Personalized nutrition recommendations
+- Nutrition and calorie information
+- Additional meal options
+- Backend integration
+
+## Project Type
+Academic Mini Project – Rule-Based Expert System
